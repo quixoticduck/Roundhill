@@ -1,0 +1,59 @@
+<script>
+	$(document).ready(function(){
+
+	});
+</script>
+
+
+
+
+            .on('click', function() {
+                .fadeOut(200)
+
+
+                ;
+                });   
+
+
+
+
+
+
+
+
+<!-- INTRODUCTION SECTION BEGINS-->
+    <div class="container">
+        <div class="col-xs-12 col-s-2 col-md-2" style="PADDING-BOTTOM: 25px" >
+            <span id="jq_img1">
+                    <img src="assets/img/gray_white_stroke.png" width="99" height="150" alt="Roundhill Logo">
+            </span>
+        </div>
+
+        <div class="col-xs-12 col-s-10 col-md-10" style="PADDING-TOP: 15px; PADDING-BOTTOM: 15px; PADDING-LEFT: 25px; PADDING-RIGHT: 25px">
+            <span id="jq_text">
+                <p>Small companies may not have the benefit of an in-house accounts department, and bookkeeping can be time consuming and sometimes difficult and complex.</p>
+                <p>Roundhill Bookkeeping provides a specialist bookkeeping service to small businesses, listening to and appreciating every aspect of a client's needs,
+                recognising that all are different and must be catered for individually.</p>
+            </span id="jq_text">
+        </div>
+    </div>
+<!-- INTRODUCTION SECTION ENDS -->
+
+<!-- JS FOR INTRODUCTION SECTION BEGINS -->
+    <script>
+        $(document).ready(function(){
+
+            $("#jq_img1").css({
+                opacity:'0.25'
+            })
+            .delay(1000).hide(1000).show(1000).slideUp(1000).slideDown(1000).fadeOut(1000).fadeIn(1000)
+
+
+            $("#jq_text").css({
+            color:'red',
+            fontWeight:'bold',
+            opacity:'0.5'
+            });
+        });
+    </script>
+<!-- JS FOR INTRODUCTION SECTION ENDS -->

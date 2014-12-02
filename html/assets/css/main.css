@@ -1,0 +1,644 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(http://fonts.gstatic.com/s/opensans/v9/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Vollkorn';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Vollkorn Regular'), local('Vollkorn-Regular'), url(http://fonts.gstatic.com/s/vollkorn/v5/BCFBp4rt5gxxFrX6F12DKnYhjbSpvc47ee6xR_80Hnw.woff) format('woff');
+}
+
+h1 {
+  font-family: 'Vollkorn', Georgia, Times, serif;
+  font-size: 40px;
+  line-height: 45px;
+  color:#266B7C;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-family: 'Vollkorn', Georgia, Times, serif;
+  font-size: 28px;
+  line-height: 33px;
+  color:#242427;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Vollkorn', Georgia, Times, serif;
+  font-size: 23px;
+  line-height: 28px;
+  color:#EFEFEF;
+  text-align: center;
+}
+
+h4 {
+font-family: 'Open Sans', Georgia, Helvetica, Arial, sans-serif;
+font-size: 20px;
+line-height: 25px;
+/* font-weight: bold; */
+}
+
+p, ul, li, q, a {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  line-height: 30px;
+  color:#242427;
+}
+
+  .col-xs {
+  font-size: 15px;
+  line-height: 20px;
+}
+
+q {
+  font-style: italic;
+  text-align: center;
+}
+
+.fa-ul {
+    text-align:left;
+}
+
+a:link
+{
+text-decoration:none;
+color: #f8f8f8 
+}
+a:visited
+{
+text-decoration:none;
+color: #f8f8f8; 
+}
+a:hover
+{
+text-decoration:none;
+color: #3A959C; 
+}
+a:active
+{
+text-decoration:none;
+color: #f8f8f8; 
+}
+
+/*
+a[href^="mailto"]:hover:after {content: attr(title); }
+*/
+
+.padding_vertical_20 { 
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+body {
+    background-image:url("/assets/img/pixel_weave_slate2.png");
+   /* background-color:#EFEFEF; */
+}
+  
+.invsb {
+  visibility:hidden;
+}
+
+.center_text, .text_center {
+  text-align: center;
+}
+
+.center_image, .image_center {
+    display:block;
+    margin: auto;
+}
+ 
+.contact_details_center, .center_contact_details {
+    width: 290px;
+    margin:auto;
+} 
+ 
+.float_left {
+float: left
+} 
+
+.float_right {
+float: right
+} 
+
+.justified, .justified a {
+    text-align: justify;
+}
+ 
+.jumbo {
+  padding: 40px;
+	}
+ 
+/* COLOR CSS */ 
+ 
+.bg_beige {
+	background-color:#f8f8f8;
+}
+
+.bg_cream {
+	background-color:#efefef;
+}
+
+.bg_slate {
+  background-color: #242427;
+}
+
+/*
+.bg_lt_blue {
+  background-color:#419ea7
+}
+*/
+
+.bg_sky {
+  background-color:#266b7c
+}
+
+.bg_sky h1, .bg_sky p {
+  color: #efefef;
+}
+ 
+.bg_pixel {
+  background-image:url("/assets/img/pixel_weave.png");
+}
+
+.bg_pixel_slate {
+  background-image:url("/assets/img/pixel_weave_slate2.png");    
+}
+
+.beige_gray_gradient {
+background: #f8f8f8; /* Old browsers */
+
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y4ZjhmOCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjgwJSIgc3RvcC1jb2xvcj0iI2VmZWZlZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+
+background: -moz-linear-gradient(top,  #f8f8f8 0%, #efefef 80%); /* FF3.6+ */
+
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(80%,#efefef)); /* Chrome,Safari4+ */
+
+background: -webkit-linear-gradient(top,  #f8f8f8 0%,#efefef 80%); /* Chrome10+,Safari5.1+ */
+
+background: -o-linear-gradient(top,  #f8f8f8 0%,#efefef 80%); /* Opera 11.10+ */
+
+background: -ms-linear-gradient(top,  #f8f8f8 0%,#efefef 80%); /* IE10+ */
+
+background: linear-gradient(to bottom,  #f8f8f8 0%,#efefef 80%); /* W3C */
+
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f8f8', endColorstr='#efefef',GradientType=0 ); /* IE6-8 */
+}
+
+
+/* COLOR CSS ENDS */ 
+
+
+.skyline_padding {
+padding-bottom: 80px;
+}
+
+.jumbo-rooftops {
+    height: 250px;
+    background-image:url("/assets/img/roof_invr3.png");
+    background-repeat: repeat-x;
+    background-size: auto 300px;
+}
+
+.jumbo-footer {
+    padding-top: 200px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 2.1428571435;
+    text-align: center;
+}
+
+.jumbo-footer p, .jumbo-footer h1, .jumbo-footer h2, .jumbo-footer h3, .jumbo-footer h4, .jumbo-footer a, .jumbo-footer ul, .jumbo-footer li, .jumbo-footer f {
+  color: /* #242427; */ #EFEFEF;
+}
+
+.ICB {
+    width: 50%;
+    padding: 15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+
+.no_margin {
+margin: none;
+}
+
+.no_padding {
+padding: none;
+}
+
+.lower_buffer {
+margin-bottom: 50px;
+}
+
+
+/* CODEBAR NAV */
+
+.navbar.affix {
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border: 0;
+    margin-top: 0;
+    padding-top: 0px;
+    border-radius: 0;
+    animation: fadeIn 0.5s ease-in;
+    -webkit-animation: fadeIn 0.5s;
+}
+.affix-placeholder {
+    display: none;
+}
+.navbar.affix + .affix-placeholder {
+    display: block;
+    visibility: hidden;
+}
+
+
+.logo {
+    width: 230px;
+    margin-bottom: -120px;
+}
+
+.logo_header {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+/* CODE BAR NAV END */
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #266b7c;
+    background-color: transparent;
+}
+
+a:focus {
+    outline: none;
+    outline-offset: -2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* NAVBAR CSS*/
+
+.navbar-default {
+    background-image:url("/assets/img/pixel_weave_slate2.png");
+    color: red;
+}
+
+.navbar-header {
+    background: #f8f8f8;
+    background-image:url("/assets/img/pixel_weave_slate.png");
+    text-align: center;
+    margin-left: 20px;
+}
+
+#nav-toggle {
+    background-image:url("/assets/img/pixel_weave.png");
+}
+
+.navbar-brand {
+    float:none;
+    margin: auto;
+}
+
+.nav_brand h1 {
+    font-size: 28px;
+    line-height: 30px;
+	margin-bottom: 5px;
+	color: #f8f8f8;
+}
+
+ .navbar-fixed-top .navbar-nav {
+ float: right;   /* MAKES NAVBAR LINKS FLOAT TO RIGHT */
+ background-color: #242427;
+ /* background-image:url("/assets/img/pixel_weave_slate2.png"); */
+ color: #f8f8f8;
+  }
+
+.nav-justified {
+    background-color: blue;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #f8f8f8;
+}
+
+.navbar-default .navbar-nav > li:hover > a:hover {
+    color: #419EA7;
+}
+
+.navbar-fixed-top {
+  min-height: 50px;
+  font-size: 15px;
+}
+
+	.navbar {
+		float: right;
+	}
+
+@media (min-width: 768px) {
+	.navbar .navbar-nav {
+		float: right;
+	}
+	
+	.navbar-fixed-top .navbar-collapse {
+
+	}
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    background-image:url("/assets/img/pixel_weave_slate2.png");    
+}
+
+/*
+.navbar-center {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    margin: auto;
+    height: 100%;
+}
+*/
+
+/* NAVBAR CSS ENDS*/
+
+@media print {
+    
+    body, article {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    @page {
+        margin: 2cm;
+    }
+    
+    h1 {
+       font-size: 32px; 
+       color: #000;
+    } 
+    
+    h2 {
+        font-size: 25px;
+        color: #000;
+    }
+    
+    h3 {
+        font-size: 20px;
+        color: #000;
+    }
+    
+    p {
+        font-size: 15px;
+    }
+    
+    .header {
+        display: none;
+    }
+    
+    .fa {
+        font-size: 20px;
+    }    
+       
+    .jumbo {
+        padding: none;
+        margin: none;
+    }
+
+    .ICB {
+        display: none;
+    }
+    
+    .jumbo_rooftops {
+        
+    }
+}
+
+/* SPINNING WINDMILL ICON*/
+
+#windmill.col-xs-12.col-s-6.col-md-6 {
+  background-image:url("/assets/img/windmill_only_short_center3.png");
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: 30%;
+}
+
+.windmill {
+  background-image:url("/assets/img/windmill_only_short_center3.png");
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: 15%;
+  /*
+  margin: 20px;
+  padding: 15px;
+  */
+}
+
+#sails:hover {
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+/* SPINNING WINDMILL ICON ENDS*/
+
+
+
+/* RESPONSIVE CSS */
+
+/*------------------------------------------
+  Responsive Grid Media Queries - 1280, 1024, 768, 480
+   1280-1024   - desktop (default grid) (default: p 19px, h1 45, h2 33, h3 24, h4 22 )
+   1024-768    - tablet landscape
+   768-480     - tablet 
+   480-less    - phone landscape & smaller (Razr i)
+--------------------------------------------*/
+@media all and (min-width: 1024px) and (max-width: 1280px) { }
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+
+
+}
+
+@media all and (max-width: 480px) {
+    p, ul, li, q, a {
+        font-size: 17px;
+        line-height: 27px;
+    }
+    
+    h1 {
+        font-size: 37px;
+        line-height: 42px;
+    }
+    
+    h2  {
+        font-size: 26px;
+        line-height: 31px;
+    }
+    
+    h3 {
+        font-size: 18px;
+        line-height: 23px;
+    }
+    
+    h4  {
+        font-size: 19px;
+        line-height: 22px;
+    }
+}
+
+
+/* Portrait */
+@media screen and (orientation:portrait) { /* Portrait styles here */ }
+/* Landscape */
+@media screen and (orientation:landscape) { /* Landscape styles here */ }
+
+
+/* CSS for iPhone, iPad, and Retina Displays */
+
+/* Non-Retina */
+@media screen and (-webkit-max-device-pixel-ratio: 1) {
+}
+
+/* Retina */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5) {
+}
+
+/* iPhone Portrait */
+@media screen and (max-device-width: 480px) and (orientation:portrait) {
+} 
+
+/* iPhone Landscape */
+@media screen and (max-device-width: 480px) and (orientation:landscape) {
+}
+
+/* iPad Portrait (and Hudl 2 portrait) */
+@media screen and (min-device-width: 481px) and (orientation:portrait) {
+        p, ul, li, q, a {
+        font-size: 18px;
+        line-height: 31px;
+    }
+    h1 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+    
+    h2  {
+        font-size: 28px;
+        line-height: 33px;
+    }
+    
+    h3 {
+        font-size: 19px;
+        line-height: 24px;
+    }
+    
+    h4  {
+        font-size: 17px;
+        line-height: 22px;
+    }    
+}
+
+/* iPad Landscape */
+@media screen and (min-device-width: 481px) and (orientation:landscape) {
+}
+
+
+/*
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+*/
+
+/* RESPONSIVE CSS END */
+
+
+
+
+
+
+/*
+#h1.col-xs-12 {
+  font-size: 40px;
+}
+*/
+
+
+/*
+.test-icon {
+    background: none repeat scroll 0 0 #3a959c;
+    border-radius: 50%;
+    cursor: pointer;
+    display: block;
+    font-family: "Droid Sans",sans-serif;
+    font-size: 2.2em;
+    font-weight: 700;
+    height: 100px;
+    line-height: 60px;
+    margin-top: 20px;
+    text-align: center;
+    width: 100px;
+}
+*/
+
+/* webomizz css 
+.map-container {
+    position: relative;
+    padding-bottom: 26.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+ 
+.map-container iframe,  
+.map-container object, 
+.map-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+webomizz css */
+
+
+
+
+
+.bluebox {
+  background-color: blue;
+}

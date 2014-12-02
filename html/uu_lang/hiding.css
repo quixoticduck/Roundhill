@@ -1,0 +1,104 @@
+ @media all and (min-width: 1000px) { #img_map { display:none; } }
+
+ @media all and (max-width: 999px) { #java_map { display:none; } }
+ 
+body {
+    background-color:#a822a8;
+}
+
+    
+ .center_image, .image_center
+    {
+    display:block;
+    margin: auto;
+    }
+    
+
+@media screen and (max-width: 5000px) {
+h1 {
+    font-family: 'Lobster', Georgia, Times, serif;
+    font-size: 60px;
+    line-height: 100px;
+    text-align:center;
+    color:red;
+}
+ 
+p,ul,li {
+    font-family: 'Cabin', Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    line-height: 25px;
+    color:red;
+}
+
+}
+
+
+@media screen and (max-width: 1024px) {
+h1 {
+    font-family: 'Lobster', Georgia, Times, serif;
+    font-size: 45px;
+    line-height: 100px;
+    text-align:center;
+    color:green;
+}
+ 
+p,ul,li {
+    font-family: 'Cabin', Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    line-height: 25px;
+    color:green;
+}
+
+}
+
+
+@media screen and (max-width: 650px) {
+h1 {
+    font-family: 'Lobster', Georgia, Times, serif;
+    font-size: 30px;
+    line-height: 100px;
+    text-align:center;
+    color:pink;
+}
+ 
+p,ul,li {
+    font-family: 'Cabin', Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    line-height: 25px;
+    color:pink;
+}
+
+
+}
+
+@media screen and (max-width: 480px) {
+h1 {
+    font-family: 'Lobster', Georgia, Times, serif;
+    font-size: 15px;
+    line-height: 30px;
+    text-align:center;
+    color:blue;
+}
+ 
+p,ul,li {
+    font-family: 'Cabin', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    color:blue;
+}
+
+}
+
+
+
+.blue_text
+{    color:#3FA9DC;
+}
+
+
+
+<!-- makes img disappear when --!>
+//makes java disappear when
+
+
+

@@ -1,0 +1,95 @@
+/* ==========================================================================
+   MAIN
+   ========================================================================== */
+body {
+
+    background-image:url("/assets/img/bsq2curved.png");
+}
+
+<!-- background-color:#DFDDD7
+#F2F2F2
+#eeeeee
+--!>
+
+
+.jumbo-ghost {
+    position: relative; 
+    padding: 50px 0;    
+    text-align: center; 
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 2.1428571435;
+    color:#ffffff;
+    }
+
+.jumbo-gray {
+  padding: 30px;
+  margin-bottom: 30px;
+  font-size: 15px;
+  font-weight: 200;
+  line-height: 2.1428571435;
+  color:#000000;
+  background-color:#EFEFEF;
+}
+
+.jumbo-gray h1 {
+  line-height: 1;
+  color: inherit;
+}
+
+.jumbo-gray p {
+  line-height: 1.4;
+}
+
+.container .jumbo-gray {
+  border-radius: 6px;
+}
+
+@media screen and (min-width: 768px) {
+  .jumbo-gray {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .container .jumbo-gray {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  .jumbo-gray h1 {
+    font-size: 63px;
+  }
+}
+
+<!--top section 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#020031', endColorstr='#6d3353',GradientType=1 );
+        color: #fff; 
+    background: #020031;  
+ -- !>
+ 
+    -webkit-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+    -moz-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);     
+    box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+    
+    background: -moz-linear-gradient(45deg, #020031 0%, #6d3353 100%);    
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#020031), color-stop(100%,#6d3353));     
+    background: -webkit-linear-gradient(45deg, #020031 0%,#6d3353 100%);    
+    background: -o-linear-gradient(45deg, #020031 0%,#6d3353 100%);   
+    background: -ms-linear-gradient(45deg, #020031 0%,#6d3353 100%);   
+    background: linear-gradient(45deg, #020031 0%,#6d3353 100%); 
+    text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
+    
+    <!--
+body {
+    //padding-top: 50px;
+    //padding-bottom: 20px;
+ -- !>
+    }
+    
+    .container-gray {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color:#EFEFEF;
+}
+
+ 

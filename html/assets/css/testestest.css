@@ -1,0 +1,76 @@
+   /* <div id="container">
+        <header class="header" role="banner">
+            <div id="inner-header" class="wrap clearfix">
+
+class="logo" rel="nofollow" 
+
+             end #inner-header 
+
+        <div class="navigationWrap wrap">
+            <span class="showMe mobileNav">
+            <div id="undefined-sticky-wrapper" class="sticky-wrapper" 
+*/
+
+body {
+    font-family: "kepler-std","Georgia",Cambria,Times New Roman,Times,serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #565656;
+}
+html, button, input, select, textarea {
+    font-family: sans-serif;
+}
+html {
+    font-size: 100%;
+}
+
+#container {
+
+    min-width: 1090px;
+
+    background: url('/assets/img/page-illustrations.png') no-repeat scroll center top transparent;
+    display: block;
+    /*
+    {
+    box-sizing: border-box; */
+}
+
+}
+
+
+
+
+.header {
+
+    z-index: 1010;
+    padding-top: 95px;
+
+
+    padding-top: 30px;
+    position: relative;
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+    display: block;
+}
+* /*{
+    box-sizing: border-box;
+}*/
+
+} 
+
+
+role="banner">
+
+#inner-header {} .wrap clearfix {}
+
+.logo {} rel="nofollow" 
+
+#inner-header {}
+
+.navigationWrap wrap {}
+
+.showMe mobileNav {}
+
+#undefined-sticky-wrapper {} 
+
+.sticky-wrapper {}

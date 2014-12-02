@@ -1,0 +1,52 @@
+    <!doctype html>
+        <head>
+            <link rel="stylesheet" href="hiding.css">
+            
+        <style>
+             #map_canvas {
+                width: 600px;
+                height: 374px;
+            }
+        </style>
+        
+        <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+            <script>
+              function initialize() {
+                var map_canvas = document.getElementById('map_canvas');
+                var map_options = {
+                  center: new google.maps.LatLng(50.837004,-0.13244),
+                  zoom: 15,
+                  mapTypeId: google.maps.MapTypeId.ROADMAP
+                }
+                var map = new google.maps.Map(map_canvas, map_options)
+                
+                var marker = new google.maps.Marker({
+                  position: new google.maps.LatLng(50.837004,-0.13244),
+                  map: map,
+                  title: "Roundhill Bookeeping"
+                        });
+                    }
+                google.maps.event.addDomListener(window, 'load', initialize);
+            </script>
+
+        </head>            
+            <body>
+
+
+<h1>TEST TEST</h1>
+    
+    vollkorn test
+    
+    <img src="../assets/img/dad_image.jpg" width="20%" height="20%" alt="Clive Baldwin"  class="dad" />
+    <img src="../assets/img/ICB_tall3.png" width="20%" height="20%" alt="Clive Baldwin"  class="ICB" />
+
+    <div id="img_map"> 
+        <img src="../assets/img/roundhill_map_600x374.png" width="600px" height="374px" alt="Roundhill Bookkeeping Location" width="20%" height="20%" alt="Clive Baldwin" /> 
+    </div>
+
+    <div id="java_map">
+        <div id="map_canvas" class=java_map>
+        </div>
+    </div>
+
+</body>
