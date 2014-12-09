@@ -20,6 +20,15 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">
     <link rel="stylesheet" type="text/css" media="all" href="assets/css/main.css">
+        <!-- Important Owl stylesheet -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.css">
+     
+    <!-- Default Theme -->
+    <link rel="stylesheet" href="assets/css/owl.theme.default.css">
+     
+    <!-- Include js plugin -->
+    <script src="js/vendor/owl.carousel.min.js"></script>
+
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false" type="text/javascript"></script>
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 
@@ -144,6 +153,8 @@
                 <p>Small companies may not have the benefit of an in-house accounts department, and bookkeeping can be time consuming and sometimes difficult and complex.</p>
                 <p>Roundhill Bookkeeping provides a specialist bookkeeping service to small businesses, listening to and appreciating every aspect of a client's needs,
                 recognising that all are different and must be catered for individually.</p>
+
+                TEST INTRO TEST
             </div>
 
             <div class="col-xs-1 col-s-0">
@@ -247,6 +258,18 @@
                         <q>Clive has been invaluable over the last ten years or so, reliable, efficient and thoroughly considered part of the business.  It is comforting to know the finances are dealt with in such an expert manner. I would not hesitate to recommend Roundhill Bookkeeping.</q>
                         <p><h3>Johnny Hartford – 5.15 Records, Shoreditch, London</h3></p> 
 -->
+
+
+
+<div id="owl-demo" class="owl-carousel owl-theme">
+ 
+	<div class="item"><img src="assets/img/logo.png" alt="TEST"></div>
+	<div class="item"><img src="assets/img/logo32.png" alt="GTA V"></div>
+	<div class="item"><img src="assets/img/logo64.png" alt="Mirror Edge"></div>
+ 
+</div>
+
+
                     </div>    
                 <div class="col-xs-0 col-md-2"></div>
             </div>
@@ -370,6 +393,33 @@ if (typeof console === "undefined") {
 }
 </script>
 <!-- smooth scroll end -->
+
+<!-- Owl Carousel -->
+
+<script>
+    $(document).ready(function() {
+     
+    $("#owl-demo").owlCarousel({
+     
+    navigation : true, // Show next and prev buttons
+    slideSpeed : 300,
+    paginationSpeed : 400,
+    singleItem:true
+     
+    // "singleItem:true" is a shortcut for:
+    // items : 1,
+    // itemsDesktop : false,
+    // itemsDesktopSmall : false,
+    // itemsTablet: false,
+    // itemsMobile : false
+     
+    });
+     
+    });
+</script>
+<!-- Owl Carousel end -->
+
+
 
 <!--
 <script>
