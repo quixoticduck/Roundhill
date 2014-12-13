@@ -386,6 +386,19 @@ a:focus {
 
 /* NAVBAR CSS ENDS*/
 
+
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.owl-carousel .owl-wrapper-outer {
+  overflow: hidden;
+  position:relative;
+  width: 100%;
+}
+
 @media print {
     
     body, article {
@@ -473,12 +486,6 @@ a:focus {
 
 
 
-
-#owl-demo .item img{
-display: block;
-width: 100%;
-height: auto;
-}
 
 
 

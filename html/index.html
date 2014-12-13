@@ -24,10 +24,10 @@
     <link rel="stylesheet" href="assets/css/owl.carousel.css">
      
     <!-- Default Theme -->
-    <link rel="stylesheet" href="assets/css/owl.theme.default.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.css">
      
     <!-- Include js plugin -->
-    <script src="js/vendor/owl.carousel.min.js"></script>
+    <script src="js/vendor/owl.carousel.js"></script>
 
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false" type="text/javascript"></script>
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
@@ -233,12 +233,13 @@
                 <div class="col-xs-0 col-md-2"></div>
                     <div class="col-xs-12 col-md-8">
                         <h1>Testimonials</h1>
+                            <!--
                         <q>As the owner of several businesses I cannot praise Clive highly enough. He is thorough, accurate and a vital part of the team. I have complete faith in him which allows us to concentrate on our strengths whilst he takes care of our financials, payroll and payments.</q>
                         <p><h3>Phil Barton – Sister Ray Ltd, Berwick St. London</h3></p>
     
                         <q>My name is Stuart Dunseith from Framework in Kensington Gardens, Brighton. I appointed Roundhill Bookkeeping a year ago. I have found Clive to be reliable, efficient, and most importantly, approachable. I would fully recommend.</q>
                         <p><h3>Stuart Dunseith - Framework, Kensington Gardens, Brighton</h3></p>
-    <!--
+
                         <q>I have been using Clive at Roundhill Bookeeping for over 10 years now and find him to be  efficient, reliable, knowledgeable and friendly.  I would throughly recommend him.</q>
                         <p><h3>John Reid – JPR Management, Montpelier Villas, Brighton</h3></p>
     
@@ -255,13 +256,36 @@
 
 
 <div id="owl-demo" class="owl-carousel owl-theme">
- 
-	<div class="item"><img src="assets/img/logo.png" alt="TEST"></div>
-	<div class="item"><img src="assets/img/logo32.png" alt="GTA V"></div>
-	<div class="item"><img src="assets/img/logo64.png" alt="Mirror Edge"></div>
- 
-</div>
+	<div class="item">
+		<q>As the owner of several businesses I cannot praise Clive highly enough. He is thorough, accurate and a vital part of the team. I have complete faith in him which allows us to concentrate on our strengths whilst he takes care of our financials, payroll and payments.</q>
+        <p><h3>Phil Barton – Sister Ray Ltd, Berwick St. London</h3> 
+    </div>
+	
+	<div class="item">
+		<q>My name is Stuart Dunseith from Framework in Kensington Gardens, Brighton. I appointed Roundhill Bookkeeping a year ago. I have found Clive to be reliable, efficient, and most importantly, approachable. I would fully recommend.</q>
+        <p><h3>Stuart Dunseith - Framework, Kensington Gardens, Brighton</h3>
+	</div>
 
+	<div class="item">
+		<q>I have been using Clive at Roundhill Bookeeping for over 10 years now and find him to be  efficient, reliable, knowledgeable and friendly.  I would throughly recommend him.</q>
+		<p><h3>John Reid – JPR Management, Montpelier Villas, Brighton</h3>
+	</div>
+
+	<div class="item">
+        <q>TrustInIT has been using Clive's bookkeeping services since 2005 finding him extremely reliable, diligent & thorough. Clive works in a calm, methodical way which gives us the confidence to relax and concentrate on developing our business and delivering to our clients.</q>
+        <p><h3>Nigel Taylor – TrustInIt, Saltdean, Brighton</h3></p>
+	</div>
+
+	<div class="item"> 
+        <q>As owner of Sturdy Vac  Engineering Ltd., I cannot praise Clive of Roundhill Bookkeeping enough. He is thorough, accurate, reliable and efficient.  I have complete faith in him – he takes care of all our finances and payments.</q>
+        <p><h3>Rodney Fowler – Sturdy Vac Engineering Ltd, Brighton</h3></p>
+	</div>
+
+	<div class="item">
+        <q>Clive has been invaluable over the last ten years or so, reliable, efficient and thoroughly considered part of the business.  It is comforting to know the finances are dealt with in such an expert manner. I would not hesitate to recommend Roundhill Bookkeeping.</q>
+        <p><h3>Johnny Hartford – 5.15 Records, Shoreditch, London</h3></p> 
+	</div>
+</div>
 
                     </div>    
                 <div class="col-xs-0 col-md-2"></div>
@@ -390,14 +414,17 @@ if (typeof console === "undefined") {
 <!-- Owl Carousel -->
 
 <script>
-    $(document).ready(function() {
-     
+$(document).ready(function() {   
     $("#owl-demo").owlCarousel({
      
-    navigation : true, // Show next and prev buttons
+    navigation : false, // Show next and prev buttons
     slideSpeed : 300,
+    pagination: true,
     paginationSpeed : 400,
-    singleItem:true
+    //singleItem:true
+    items: 1,
+   autoPlay: 4000,
+   stopOnHover: true,
      
     // "singleItem:true" is a shortcut for:
     // items : 1,
@@ -407,8 +434,8 @@ if (typeof console === "undefined") {
     // itemsMobile : false
      
     });
+});
      
-    });
 </script>
 <!-- Owl Carousel end -->
 
