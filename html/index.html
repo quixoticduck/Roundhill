@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">
     <link rel="stylesheet" type="text/css" media="all" href="assets/css/main.css">
+    
         <!-- Important Owl stylesheet -->
     <link rel="stylesheet" href="assets/css/owl.carousel.css">
      
@@ -76,9 +77,37 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="logo_header">
-                    <img src="/assets/img/logo.png" class="logo">
-                </div>
+
+
+<nav>
+	<ul class="nav_list_left">
+        <li><a href="#about" class="scroll-link" data-id="about">About</a>
+        </li>
+        <li><a href="#testimonials" class="scroll-link" data-id="testimonials">Testimonials</a>
+        </li>
+	</ul>
+
+    <a href="#home" class="logo"><img src="/assets/img/logo.png" ></a>
+
+	<ul class="nav_list_right">
+	    <li><a href="#contact" class="scroll-link" data-id="contact">Contact</a>
+	    </li>
+	    <li><a href="https://www.facebook.com/pages/Roundhill-Bookkeeping/158560677628823?fref=ts"><i class="fa fa-facebook fa-lg"></i></a>
+	    </li>
+	    <li><a href="http://uk.linkedin.com/pub/clive-baldwin/2b/515/249"><i class="fa fa-linkedin fa-lg"></i></a></li>
+	</ul>
+</nav>
+
+
+
+
+
+
+
+
+
+
+                <!--
                 <div class="navbar navbar-default" role="navigation">
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-col"> <span class="sr-only">Toggle navigation</span>
@@ -102,8 +131,8 @@
                             </li>
                         </ul>
                     </div>
-                    <!-- /.navbar-collapse -->
                 </div>
+                -->
             </div>
         </div>
     </div>
@@ -133,7 +162,7 @@
    ========================================================================== --> 
 
 <!-- INTRODUCTION SECTION BEGINS-->
-<div class="container-fluid jumbo bg_sky">
+<div class="container-fluid jumbo bg_sky" id="home">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-s-8 col-md-6 col-lg-7 jumbo">
@@ -338,19 +367,22 @@
 
     <!-- vendors -->
     
-    <script>
-    $('.navbar').affix({
-        offset: {
-            top: 125
-        }
-    });
-    
-    var $submenu = $(".navbar");
-    
-    // To account for the affixed submenu being pulled out of the content flow.
-    $submenu.after('<div style="width:100%;height:' + $submenu.height() + ';" class="navbar affix-placeholder"></div>');
+<script>    
+var $thisdiv = $('nav');
+
+$(window).scroll(function (event) {
+    // what the y position of the scroll is
+    var y = $(window).scrollTop();
+
+    // whether that's below the form
+    if (y >= 150) {
+        // if so, ad the fixed class
+        $thisdiv.addClass('fixed');
+    } else {
+  		$thisdiv.removeClass('fixed');    	
+    }
+});
 </script>
-  
 
 <!-- Smooth scroll -->  
 <script type="text/javascript">

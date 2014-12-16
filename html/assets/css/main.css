@@ -269,13 +269,49 @@ margin-bottom: 50px;
 .logo {
     width: 230px;
     margin-bottom: -120px;
+    display: inline-block;
 }
 
-.logo_header {
-    width: 100%;
-    text-align: center;
-    margin: 10px 0px;
+.fixed .logo {
+  width: 80px;
 }
+
+.logo img {
+  width: 100%;
+}
+
+.nav_list_left {
+  list-style: none;
+  display: inline-block;
+  padding:10px 0px;
+  margin: 0px;
+}
+
+.nav_list_right {
+  list-style: none;
+  display: inline-block;
+  padding:10px 0px;
+  margin: 0px;
+}
+
+nav {
+  text-align: center;
+}
+
+nav.fixed {
+  position: fixed;  
+}
+
+nav li {
+  display: inline-block;
+  padding: 5px 15px;
+  vertical-align: top;
+}
+
+nav a {
+  font-size: 23px;  
+}
+
 
 /* CODE BAR NAV END */
 
@@ -461,15 +497,12 @@ a:focus {
 }
 
 #testimonials .fa-quote-left {
-  font-size: 20px;
+  font-size: 21px;
 }
 
 #testimonials .fa-quote-right {
-  font-size: 20px;
+  font-size: 21px;
 }
-
-
-
 
 
 
