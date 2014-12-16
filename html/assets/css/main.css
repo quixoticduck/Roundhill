@@ -389,15 +389,19 @@ a:focus {
 
 #owl-demo .item img{
     display: block;
-    width: 100%;
+    width: 38%;
     height: auto;
+    margin: 0 auto;
 }
 
 .owl-carousel .owl-wrapper-outer {
   overflow: hidden;
   position:relative;
   width: 100%;
+  text-align: center;
 }
+
+
 
 @media print {
     
@@ -451,6 +455,11 @@ a:focus {
         
     }
 }
+
+.navbar-default {
+    border: none;
+}
+
 
 /* SPINNING WINDMILL ICON*/
 
