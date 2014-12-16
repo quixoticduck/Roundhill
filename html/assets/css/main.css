@@ -460,6 +460,19 @@ a:focus {
     border: none;
 }
 
+#testimonials .fa-quote-left {
+  font-size: 20px;
+}
+
+#testimonials .fa-quote-right {
+  font-size: 20px;
+}
+
+
+
+
+
+
 
 /* SPINNING WINDMILL ICON*/
 
