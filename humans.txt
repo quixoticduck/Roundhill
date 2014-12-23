@@ -1,0 +1,24 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# MAIN
+Website Design : Clara Alder
+Twitter : @claraalder
+Website : http://claraalder.site44.com/
+
+# SPECIAL THANKS
+Advice : Becky Soll
+Twitter : @beckysoll
+Website : www.beckysoll.com
+
+# SITE
+Last Update : 18/11/2014
+Doctype : html
+IDE : Sublime Text 2, Cloud9,
+
+# TECHNOLOGY COLOPHON
+
+    HTML, CSS3
+    jQuery, Bootstrap
+
+And the humanstext.org team

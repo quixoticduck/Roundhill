@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /www.roundhill.beckysoll.com/testimonials.html
+Disallow: /www.roundhill.beckysoll.com/about.html
+Disallow: /www.roundhill.beckysoll.com/navtest.html
