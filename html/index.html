@@ -45,13 +45,32 @@
         var map = new google.maps.Map(document.getElementById('location-canvas'),
                                         mapOptions);
                                   
+                                 
         var marker = new google.maps.Marker({
                         map: map, 
                         draggable: false, 
                         position: new google.maps.LatLng(50.837004,-0.13244),
-                        icon: '/assets/img/l_marker_turq.png'
+                        icon: '/assets/img/l_marker_turq_3040a.png'
+                        //size: new google.maps.Size(30, 40)
             });
-     }
+
+/*
+        var icon = {
+             url: '/assets/img/l_marker_turq.png', // url
+             size: new google.maps.Size(30, 40), // size
+             origin: new google.maps.Point(0,0), // origin
+             anchor: new google.maps.Point(anchor_left, anchor_top) // anchor 
+        };
+
+            position = new google.maps.LatLng(50.837004,-0.13244)
+            marker = new google.maps.Marker({
+            position: position,
+            map: map,
+            draggable: false,
+            icon: icon
+        });
+*/
+         }
                             
      google.maps.event.addDomListener(window, 'resize', initialize);
      google.maps.event.addDomListener(window, 'load', initialize);
