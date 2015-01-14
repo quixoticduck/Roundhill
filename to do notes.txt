@@ -1,0 +1,9 @@
+errors:
+when page resizes from small to large the navbar disappears
+gap (two halves) in mobile nav
+mobile nav stays open and fixed when you click on a link
+
+to change:
+switch logo to spinning one
+add in Pagelime
+
