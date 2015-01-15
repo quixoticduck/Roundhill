@@ -366,6 +366,12 @@ nav span {
 }
 
 @media (max-width: 995px) {
+  nav span {
+    margin: 0 6px;
+  }
+}
+
+@media (max-width: 825px) {
   nav li {
     background-image:url("/assets/img/pixel_weave.png");
     display: block;
