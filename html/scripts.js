@@ -7,7 +7,9 @@ $(document).ready(function() {
   // navigation : true,
   slideSpeed : 300,
   paginationSpeed : 400,
-  singleItem:true
+  singleItem:true,
+  stopOnHover: true,
+  autoPlay: 4000
    
   });
 
