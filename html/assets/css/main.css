@@ -55,7 +55,7 @@ p, ul, li, q, a {
 q {
   font-style: italic;
   text-align: center;
-  color: #85b78c;
+  color: #85b78c; 
 }
 
 .col-xs {
@@ -202,8 +202,6 @@ background: linear-gradient(to bottom,  #f8f8f8 0%,#efefef 80%); /* W3C */
 
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f8f8', endColorstr='#efefef',GradientType=0 ); /* IE6-8 */
 }
-
-
 /* COLOR CSS ENDS */ 
 
 
@@ -238,7 +236,6 @@ padding-bottom: 80px;
     -moz-border-radius: 5px;
     border-radius: 5px;
 }
-
 
 .no_margin {
 margin: none;
@@ -429,185 +426,10 @@ a:hover {
 
 /* CODE BAR NAV END */
 
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    color: #266b7c;
-    background-color: transparent;
-}
 
 a:focus {
     outline: none;
     outline-offset: -2px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-/* NAVBAR CSS*/
-
-.navbar-default {
-    background-image:url("/assets/img/pixel_weave_slate2.png");
-    color: red;
-}
-
-.navbar-header {
-    background: #f8f8f8;
-    background-image:url("/assets/img/pixel_weave_slate.png");
-    text-align: center;
-    margin-left: 20px;
-}
-
-#nav-toggle {
-    background-image:url("/assets/img/pixel_weave.png");
-}
-
-.navbar-brand {
-    float:none;
-    margin: auto;
-}
-
-.nav_brand h1 {
-    font-size: 28px;
-    line-height: 30px;
-	margin-bottom: 5px;
-	color: #f8f8f8;
-}
-
- .navbar-fixed-top .navbar-nav {
- float: right;   /* MAKES NAVBAR LINKS FLOAT TO RIGHT */
- background-color: #242427;
- /* background-image:url("/assets/img/pixel_weave_slate2.png"); */
- color: #f8f8f8;
-  }
-
-.nav-justified {
-    background-color: blue;
-}
-
-.navbar-default .navbar-nav > li > a {
-    color: #f8f8f8;
-}
-
-.navbar-default .navbar-nav > li:hover > a:hover {
-    color: #419EA7;
-}
-
-.navbar-fixed-top {
-  min-height: 50px;
-  font-size: 15px;
-}
-
-	.navbar {
-		float: right;
-	}
-
-@media (min-width: 768px) {
-	.navbar .navbar-nav {
-		float: right;
-	}
-	
-	.navbar-fixed-top .navbar-collapse {
-
-	}
-}
-
-.navbar-default .navbar-collapse, .navbar-default .navbar-form {
-    background-image:url("/assets/img/pixel_weave_slate2.png");    
-}
-
-/*
-.navbar-center {
-    position: absolute;
-    width: 100%;
-    left: 0;
-    top: 0;
-    text-align: center;
-    margin: auto;
-    height: 100%;
-}
-*/
-
-/* NAVBAR CSS ENDS*/
-
-
-#owl-demo .item img{
-    display: block;
-    width: 38%;
-    height: auto;
-    margin: 0 auto;
-}
-
-.owl-carousel .owl-wrapper-outer {
-  overflow: hidden;
-  position:relative;
-  width: 100%;
-  text-align: center;
-}
-
-
-
-@media print {
-    
-    body, article {
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
-    
-    @page {
-        margin: 2cm;
-    }
-    
-    h1 {
-       font-size: 32px; 
-       color: #000;
-    } 
-    
-    h2 {
-        font-size: 25px;
-        color: #000;
-    }
-    
-    h3 {
-        font-size: 20px;
-        color: #000;
-    }
-    
-    p {
-        font-size: 15px;
-    }
-    
-    .header {
-        display: none;
-    }
-    
-    .fa {
-        font-size: 20px;
-    }    
-       
-    .jumbo {
-        padding: none;
-        margin: none;
-    }
-
-    .ICB {
-        display: none;
-    }
-    
-    .jumbo_rooftops {
-        
-    }
-}
-
-.navbar-default {
-    border: none;
 }
 
 #testimonials .fa-quote-left {
@@ -617,47 +439,6 @@ a:focus {
 #testimonials .fa-quote-right {
   font-size: 21px;
 }
-
-
-
-
-/* SPINNING WINDMILL ICON*/
-
-#windmill.col-xs-12.col-s-6.col-md-6 {
-  background-image:url("/assets/img/windmill_only_short_center3.png");
-  background-position:center;
-  background-repeat: no-repeat;
-  background-size: 30%;
-}
-
-.windmill {
-  background-image:url("/assets/img/windmill_only_short_center3.png");
-  background-position:center;
-  background-repeat: no-repeat;
-  background-size: 15%;
-  /*
-  margin: 20px;
-  padding: 15px;
-  */
-}
-
-#sails:hover {
-    -webkit-animation:spin 4s linear infinite;
-    -moz-animation:spin 4s linear infinite;
-    animation:spin 4s linear infinite;
-}
-
-@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
-@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
-
-/* SPINNING WINDMILL ICON ENDS*/
-
-
-
-
-
-
 
 /* RESPONSIVE CSS */
 
@@ -773,58 +554,108 @@ only screen and (min-device-pixel-ratio: 1.5) {
 /* RESPONSIVE CSS END */
 
 
+/*PRINT CSS*/
+@media print {
+    
+    body, article {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    @page {
+        margin: 2cm;
+    }
+    
+    h1 {
+       font-size: 32px; 
+       color: #000;
+    } 
+    
+    h2 {
+        font-size: 25px;
+        color: #000;
+    }
+    
+    h3 {
+        font-size: 20px;
+        color: #000;
+    }
+    
+    p {
+        font-size: 15px;
+    }
+    
+    .header {
+        display: none;
+    }
+    
+    .fa {
+        font-size: 20px;
+    }    
+       
+    .jumbo {
+        padding: none;
+        margin: none;
+    }
+
+    .ICB {
+        display: none;
+    }
+    
+    .jumbo_rooftops {
+        
+    }
+}
+
+/* /PRINT CSS */
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SPINNING WINDMILL ICON*/
 
 /*
-#h1.col-xs-12 {
-  font-size: 40px;
+
+#windmill.col-xs-12.col-s-6.col-md-6 {
+  background-image:url("/assets/img/windmill_only_short_center3.png");
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: 30%;
+}
+
+.windmill {
+  background-image:url("/assets/img/windmill_only_short_center3.png");
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: 15%;
+  */
+
+  /*
+  margin: 20px;
+  padding: 15px;
+  
 }
 */
 
+/**/
+/* SPINNING WINDMILL ICON ENDS*/
 
-/*
-.test-icon {
-    background: none repeat scroll 0 0 #3a959c;
-    border-radius: 50%;
-    cursor: pointer;
-    display: block;
-    font-family: "Droid Sans",sans-serif;
-    font-size: 2.2em;
-    font-weight: 700;
-    height: 100px;
-    line-height: 60px;
-    margin-top: 20px;
-    text-align: center;
-    width: 100px;
-}
-*/
-
-/* webomizz css 
-.map-container {
-    position: relative;
-    padding-bottom: 26.25%;
-    padding-top: 30px;
-    height: 0;
-    overflow: hidden;
-}
- 
-.map-container iframe,  
-.map-container object, 
-.map-container embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-webomizz css */
-
-
-
-
-
-.bluebox {
-  background-color: blue;
-}
