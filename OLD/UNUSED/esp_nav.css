@@ -1,0 +1,20 @@
+body { 
+    padding-top: 65px; 
+}
+
+#windmill_bg {
+  background-image:url("http://www.roundhill.beckysoll.com/assets/img/windmill_only_short_center3.png");
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: 35%;
+}
+
+#sails:hover {
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }

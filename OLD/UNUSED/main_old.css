@@ -1,0 +1,156 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(http://fonts.gstatic.com/s/opensans/v9/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Vollkorn';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Vollkorn Regular'), local('Vollkorn-Regular'), url(http://fonts.gstatic.com/s/vollkorn/v5/BCFBp4rt5gxxFrX6F12DKnYhjbSpvc47ee6xR_80Hnw.woff) format('woff');
+}
+
+
+h1 {
+    font-family: 'Vollkorn', Georgia, Times, serif;
+    font-size: 45px;
+    line-height: 42px;
+    color:#266B7C;
+    text-align: center;
+}
+
+#h1.col-xs-12 {
+  font-size: 40px;
+}
+
+h2 {
+  font-family: 'Vollkorn', Georgia, Times, serif;
+  font-size: 40x; /*error not changing */
+  line-height: 35px;
+  color:black;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Open Sans', Georgia, Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  color:#EFEFEF;
+  text-align: center;
+}
+
+h4
+{
+font-family: 'Open Sans', Georgia, Helvetica, Arial, sans-serif;
+font-size: 21px;
+line-height: 24px;
+/* font-weight: bold; */
+}
+
+p, ul, li {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 27px;
+  color:black;
+}
+
+p.col-xs {
+  font-size: 15px;
+  line-height: 20px;
+}
+
+q {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  color:black;
+  font-style: italic
+}
+
+a:link
+{
+text-decoration:none;
+color: #000; 
+}
+a:visited
+{
+text-decoration:none;
+color: #000; 
+}
+a:hover
+{
+text-decoration:none;
+color: #3A959C; 
+}
+a:active
+{
+text-decoration:none;
+color: #red; 
+}
+
+
+.padding_vertical_20 { 
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+body {
+    background-color:#EFEFEF;
+}
+  
+.invisible {
+  visibility:hidden;
+}
+
+.center_text, .text_center {
+  text-align: center;
+}
+
+.center_image, .image_center {
+    display:block;
+    margin: auto;
+}
+    
+.jumbo-pixel {
+  padding: 30px;
+  margin-bottom: 30px;
+  background-image:url("/assets/img/pixel_weave.png");
+}
+
+.jumbo-rooftops {
+  padding: 230px;
+  height: 100px;
+  background-image:url("/assets/img/img_rooftops2.png");
+  background-repeat: repeat-x;
+  /*background-size: contain;*/
+}
+
+.jumbo-footer {
+  padding: 30px;
+  font-size: 15px;
+  font-weight: 200;
+  line-height: 2.1428571435;
+  background-color:#28707F;
+  text-align: center
+}
+
+.jumbo-footer p, .jumbo-footer h1, .jumbo-footer h2, .jumbo-footer h3 {
+  color: #EFEFEF;
+}
+
+#windmill.col-xs-12.col-s-6.col-md-6 {
+  background-image:url("http://www.roundhill.beckysoll.com/assets/img/windmill_only_short_center3.png");
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: 35%;
+}
+
+#sails:hover {
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rota

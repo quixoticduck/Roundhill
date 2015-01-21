@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="description" content="">
+        <title>Clive Baldwin | Roundhill Bookkeeping</title>
+
+        <!--<meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+        <meta name="viewport" content="initial-scale=1">
+
+        <style>
+             #map_canvas {
+                width: 525px;
+                height: 375px;
+            }
+        </style>
+        <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="assets/css/bootstrap.css">
+        <link rel="stylesheet" href="assets/css/bootstrap-theme.css">
+        <link rel="stylesheet" href="assets/fonts/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/css/main.css">
+        <!--[if lt IE 9]>
+        <script src="dist/html5shiv.js"></script>
+        <![endif]-->
+        
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script> 
+        <script type="text/javascript" src="js/vendor/jquery-1.10.1.min.js"></script>
+          <!--     <script type="text/javascript" src="js/jQueryRotateCompressed.js"></script>
+ <script type="text/javascript" src="http://jqueryrotate.googlecode.com/svn/trunk/jQueryRotate.js"></script> -->
+        
+        <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+  
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-26372463-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+        
+            <!-- MAP HEAD SCRIPT BEGINS -->
+        <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+            <script>
+              function initialize() {
+                var map_canvas = document.getElementById('map_canvas');
+                var map_options = {
+                  center: new google.maps.LatLng(50.837004,-0.13244),
+                  zoom: 15,
+                  mapTypeId: google.maps.MapTypeId.ROADMAP
+                }
+                var map = new google.maps.Map(map_canvas, map_options)
+                
+                var marker = new google.maps.Marker({
+                  position: new google.maps.LatLng(50.837004,-0.13244),
+                  map: map,
+                  title: "Roundhill Bookeeping"
+                        });
+                    }
+                google.maps.event.addDomListener(window, 'load', initialize);
+            </script>
+    <!-- MAP HEAD SCRIPT ENDS -->
+
+    </head>
+
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. 
+            Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+<!-- NAVBAR SECTION BEGINS-->
+<div id="wrap"> <!-- necessary for sticky footer. wrap all content except footer -->
+  <div class="navbar navbar-default navbar-static-top hidden-print">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <i class="fa fa-reorder fa-lg"></i>
+      </button>
+      <a class="navbar-brand" href="./">Roundhill Bookkeeping</a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="hidden-sm  active"><a href="./"><h4>Home</h4></a></li>
+        <li class="hidden-sm">
+          <a href="testimonials.html"><h4>Testimonials</h4></a>
+        </li>
+        <li class="hidden-xs hidden-md hidden-lg">
+          <a href="testimonials.html"><h4>Testimonials</h4></a>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="https://www.facebook.com/pages/Roundhill-Bookkeeping/158560677628823?fref=ts"><i class="fa fa-facebook-square fa-2x"></i></a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="http://uk.linkedin.com/pub/clive-baldwin/2b/515/249"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!-- NAVBAR SECTION ENDS-->
+
+<!-- ==========================================================================
+    MAIN HTML BEGINS
+   ========================================================================== --> 
+
+<!-- INTRODUCTION SECTION BEGINS-->
+    <div class="col-xs-0 col-s-3 col-md-3">
+    </div>
+    <div class="container">
+    <div id="windmill" class="col-xs-12 col-s-6 col-md-6">
+        <div id="sails">
+            <img src="http://www.roundhill.beckysoll.com/assets/img/sails_only_diag2.png" width="35%" height="35%" alt="Roundhill Logo" class="image_center"/>
+        </div> 
+    </div>
+    <div class="col-xs-12 col-s-3 col-md-3">
+        <br><h1>Roundhill
+        <br>Bookkeeping</h1> 
+    </div>
+
+
+</div>
+
+<!--
+<script>
+    $(document).ready(function(){
+
+        $("#sails")
+
+        .on('mouseover', function() {
+            $("#sails").fadeOut(800).fadeIn(600)
+        })
+    });
+</script>
+-->
+
+<!--
+    <script>
+        $(document).ready(function(){
+            var value = 0
+            $("#spinny").rotate({ 
+               bind: 
+                 { 
+                    mouseover: function(){
+                        value +=360;
+                        $("#spinny").rotate({ animateTo:value})
+                    }
+                 } 
+            });
+    </script>
+    -->
+
+     <!-- 
+       <span class="logo_background">  bing    </span>
+       <img src="assets/img/img_wm_logo.png" width="40%" height="40%" style="position: relative; top: 0px; left: 0px;" alt="Roundhill Logo" class="image_center"/>
+    <img src="assets/img/redsail2.png" style="position: absolute; top: 100px; left: 100px;" alt="Roundhill Logo" class="image_center"/>-->
+
+
+    <!--
+    <script>
+        $(document).ready(function(){
+            $("#spintest").rotate({ 
+               bind: 
+                 { 
+                    mouseover : function() { 
+                        $(this).rotate({animateTo:480})
+                    },
+                    mouseout : function() { 
+                        $(this).rotate({animateTo:360})
+                    }
+                }  
+            });
+    </script>
+-->
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-s-8 col-md-8" style="PADDING-TOP: 15px; PADDING-BOTTOM: 15px; PADDING-LEFT: 25px; PADDING-RIGHT: 25px">
+            <span id="jq_text">
+                    <br><p>Small companies may not have the benefit of an in-house accounts department, and bookkeeping can be time consuming and sometimes difficult and complex.</p>
+                    <p>Roundhill Bookkeeping provides a specialist bookkeeping service to small businesses, listening to and appreciating every aspect of a client's needs,
+                    recognising that all are different and must be catered for individually.</p>
+            </span id="jq_text">
+        </div>
+    </div>
+        <div class="col-xs-4 col-s-4 col-md-4">
+        <div>
+</div>
+</div>
+</div>
+<!-- INTRODUCTION SECTION ENDS -->
+
+
+<!-- CONTACT SECTION BEGINS -->
+<div class="container-fluid">
+    <div class="jumbo-pixel">
+        <div class="row">
+            <div class="container">
+                <div class="col-lg-7 col-md-7" style="padding-top: 10px; padding-bottom:20px">
+                <!--JAVA MAP DIV HTML BEGINS -->
+                    <div id="java_map">
+                        <div id="map_canvas">
+                        </div>
+                    </div>
+                <!-- JAVA MAP DIV HTML ENDS  style="max-width: 525px" --> 
+                    <div id="img_map">
+                        <a href="https://www.google.co.uk/maps/preview#!data=!1m4!1m3!1d3458!2d-0.1324259!3d50.8366507!4m12!2m11!1m10!1s0x0%3A0x52d1a6882e3951fe!3m8!1m3!1d40315!2d-0.1061897!3d50.837418!3m2!1i1024!2i768!4f13.1">
+                        <img src="assets/img/map_525x375.png" alt="Roundhill Bookkeeping Location" style="width=100%" class="image_center"></a>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12" style="PADDING-top: 6px">
+                        <ul class="fa-ul">
+                            <li><i class="fa fa-home fa-lg"></i> &nbsp; C E BALDWIN AICB CB CERT. PM DIP.</li>
+                            <li><i class="fa fa-home fa-lg invisible"></i> &nbsp; 22 PRINCES ROAD</li>
+                            <li><i class="fa fa-home fa-lg invisible"></i> &nbsp; BRIGHTON BN2 3RH</li>
+                            <li><i class="fa fa-phone fa-lg"></i> &nbsp; 01273 681629 / 07538 329588</li>
+                            <li><i class="fa fa-envelope fa-lg"></i>&nbsp; <a href="mailto:clive.rhb@gmail.com">clive.rhb@gmail.com</a></li>
+                        </ul>
+
+
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style="padding-top: 13px">
+                            <img src="assets/img/dad_image.jpg" width="95%" height="95%" alt="Clive Baldwin" class="img-thumbnail image_center">
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style="padding-top: 13px">
+                            <img src="assets/img/ICB_tall3.png" width="98%" height="98%" alt="ICB Certificate" class="img-thumbnail image_center">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- CONTACT SECTION ENDS -->    
+
+<!-- MAIN CONTENT SECTION BEGINS-->  
+<div class="container">
+    <div class="row">
+
+    <!--<span id="more_information">
+            <a class = "navbar-btn btn-default btn align-center">More Information</a> -->
+
+                <div class="container">
+                    <div class="row" style="padding: 60px">
+                    <!--<span id="hide_main_content"> -->
+                            <div class="col-xs-12 col-sm-12 col-md-4" style="PADDING-BOTTOM: 25px">
+                                <i class="fa fa-user fa-4x" style="padding-left: 45%; padding-right:45%"></i>
+                                    <h2>About Us</h2>
+                                    <p>Clive Baldwin AICB CB Cert PM Dip., the proprietor of Roundhill Bookkeeping, is a qualified bookkeeper regulated by The Institute of Certified Bookkeepers.</p>
+                                    <p>He has over 10 years experience as a freelance bookkeeper, working mostly with Sage Line 50.</p>
+                                    <p>Roundhill Bookkeeping is certified and authorised by The Institute of Certified Bookkeepers, and is fully insured.</p>
+                            </div>
+                    
+                            <div class="col-xs-12 col-sm-12 col-md-4" style="PADDING-BOTTOM: 25px">
+                                <i class="fa fa-desktop fa-4x" style="padding-left: 42.5%; padding-right: 42.5%"></i>
+                                    <h2>How We Work</h2>
+                                    <p>
+                                    I supply computerised bookkeeping services for small businesses.
+                                    This bookkeeping can be provided at a schedule which suits you depending on your business and its financial needs,
+                                    working either from your office, or I can collect and work from mine.
+                                    </p>
+                                    
+                                    <p>
+                                    We work alongside your accountancy professional -
+                                    bookkeeping and accountancy are complimentary fields and having an efficient, 
+                                    effective relationship with your chosen accountancy firm will ultimately save you time and money.
+                                    </p>
+                            </div>
+                            
+                            <div class="col-xs-12 col-sm-12 col-md-4" style="PADDING-BOTTOM: 25px">
+                                <i class="fa fa-briefcase fa-4x" style="padding-left: 42.5%; padding-right:42.5%"></i>             
+                                    <h2>Services</h2>
+                                        <ul class="fa-ul">
+                                            <li><i class="fa-li fa fa-check"></i>Maintaining accurate nominal sales and purchase ledgers</li>
+                                            <li><i class="fa-li fa fa-check"></i>Reconciling your bank accounts</li>
+                                            <li><i class="fa-li fa fa-check"></i>Preparing VAT returns</li>
+                                            <li><i class="fa-li fa fa-check"></i>Preparation for and attendance at a Vat inspection</li>
+                                            <li><i class="fa-li fa fa-check"></i>Management Accounts</li>
+                                            <li><i class="fa-li fa fa-check"></i>Providing all bookkeeping services prior to year end accounts</li> 
+                                            <li><i class="fa-li fa fa-check"></i>Payroll</li>
+                                            <li><i class="fa-li fa fa-check"></i>Paying creditors</li>
+                                            <li><i class="fa-li fa fa-check"></i>Cash Flow</li>
+                                        </ul>   
+                            </div>  
+                    <!--</span>  -->        
+                    </div>        
+                </div>
+<!--    </span> -->
+    </div>
+</div>
+
+ <!--
+    <script>
+    $(document).ready(function(){
+
+    $('#more_information')
+        .on('load', function() {
+            $('#hide_main_content').fadeOut(0)
+            $('#more_information').html('<a class = "navbar-btn btn-default btn align-center">Hide</a>')
+        });        
+        .on('click', function() {
+            $('#hide_main_content').fadeIn(500)
+            $('#more_information').html('<a class = "navbar-btn btn-default btn align-center">More Information</a>')
+        });
+        .on('click', function() {
+            $('#hide_main_content').fadeOut(500)
+            $('#more_information').html('<a class = "navbar-btn btn-default btn align-center">Hide</a>')
+
+        });
+    });
+</script> 
+-->
+
+<!-- MAIN CONTENT SECTION ENDS-->    
+
+
+
+
+<div class="container-fluid" style="background-color:#419EA7">
+    <div class="container">
+        <div class="row" style="padding-top: 80px">
+            <h2>Testimonials</h2>
+            <q>As the owner of several businesses I cannot praise Clive highly enough. He is thorough, accurate and a vital part of the team. I have complete faith in him which allows us to concentrate on our strengths whilst he takes care of our financials, payroll and payments.</q>
+            <p><h3>Phil Barton – Sister Ray Ltd, Berwick St. London</h3></p>
+
+            <q>My name is Stuart Dunseith from Framework in Kensington Gardens, Brighton. I appointed Roundhill Bookkeeping a year ago. I have found Clive to be reliable, efficient, and most importantly, approachable. I would fully recommend.</q>
+            <p><h3>Stuart Dunseith - Framework, Kensington Gardens, Brighton</h3></p>
+
+            <q>I have been using Clive at Roundhill Bookeeping for over 10 years now and find him to be  efficient, reliable, knowledgeable and friendly.  I would throughly recommend him.</q>
+            <p><h3>John Reid – JPR Management, Montpelier Villas, Brighton</h3></p>
+
+            <q>TrustInIT has been using Clive's bookkeeping services since 2005 finding him extremely reliable, diligent & thorough. Clive works in a calm, methodical way which gives us the confidence to relax and concentrate on developing our business and delivering to our clients.</q>
+            <p><h3>Nigel Taylor – TrustInIt, Saltdean, Brighton</h3></p>
+
+            <q>As owner of Sturdy Vac  Engineering Ltd., I cannot praise Clive of Roundhill Bookkeeping enough. He is thorough, accurate, reliable and efficient.  I have complete faith in him – he takes care of all our finances and payments.</q>
+            <p><h3>Rodney Fowler – Sturdy Vac Engineering Ltd, Brighton</h3></p>
+
+            <q>Clive has been invaluable over the last ten years or so, reliable, efficient and thoroughly considered part of the business.  It is comforting to know the finances are dealt with in such an expert manner. I would not hesitate to recommend Roundhill Bookkeeping.</q>
+            <p><h3>Johnny Hartford – 5.15 Records, Shoreditch, London</h3></p>
+        </div>
+    </div>
+</div>
+
+
+<div class="container-fluid">
+    <div class="jumbo-rooftops">
+    </div>
+
+    <div class="jumbo-footer">
+        <div class="row" style="padding-top: 10px">
+            <h3> Contact Contact Contact Contact Contact</h3>
+            <a href="mailto:clive.rhb@gmail.com" class = "navbar-btn btn-default btn pull-right">Email me</a>
+            <h3>Contact Contact Contact Contact Contact</h3>
+                                                    </h2>
+                                                    </h2>
+                                                    </p>
+                                                    </p>
+
+        </div>
+    </div>
+</div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+
+        <script src="js/main.js"></script>
+
+        <script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src='//www.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+    </body>
+</html>
+
+
+<!-- FOOTER SECTION BEGINS--> <!--
+<div class = "navbar navbar-default navbar-static-bottom">
+    <div class = "container">
+        <p class = "navbar-text pull-left">&copy; Roundhill Bookkeeping 2014</p>
+        <a href="mailto:clive.rhb@gmail.com" class = "navbar-btn btn-default btn pull-right">Email me</a>
+    </div>
+</div> -->
+<!-- FOOTER SECTION ENDS-->   

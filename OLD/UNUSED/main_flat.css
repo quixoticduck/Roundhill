@@ -1,0 +1,119 @@
+body {
+    background-color:#EFEFEF;
+}
+
+/* background-color:#DFDDD7
+#F2F2F2
+#eeeeee
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab);
+
+@font-face {
+  font-family: 'Open Sans', 'Roboto Slab';
+  src: url('webfont.eot'); /* IE9 Compat Modes */
+  src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('webfont.woff') format('woff'), /* Modern Browsers */
+       url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+p,ul,li {
+    font-family: 'Open Sans','Cabin', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    color:black;
+}
+
+       h1 
+    {
+    font-family: 'Roboto Slab', Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    line-height: 65px;
+    color:green;
+    } 
+
+    h3 {
+  		text-align: center;
+  		font-family: 'Roboto Slab', Helvetica, Arial, sans-serif;
+		}
+
+    h4
+    {
+    font-family: 'Roboto Slab', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    /* font-weight: bold; */
+    }
+
+
+q
+{font-style: italic}
+    background-image:url("/assets/img/bsq2curved.png");
+
+ 
+ .invisible {
+ 	visibility:hidden;
+ }
+
+ .center_text, .text_center 
+ {
+ 	text-align: center;
+ }
+
+ .center_image, .image_center
+    {
+    display:block;
+    margin: auto;
+    }
+
+
+
+ @media all and (min-width: 1000px) 
+ { #img_map { 
+     display:none; } 
+}
+
+ @media all and (max-width: 999px)
+ { 
+     #java_map { display:none; } 
+     
+h1 {
+    font-family: 'Vollkorn', Georgia, Times, serif;
+    font-size: 60px;
+    line-height: 100px;
+    text-align:center;
+    color:blue;
+}
+ 
+p,ul,li {
+    font-family: 'Cabin', Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    line-height: 25px;
+    color:blue;
+}
+
+}
+
+    
+jq_img1 {
+ }                 
+
+    
+jq_text {
+ }   
+
+.bluebox {
+  background-color: blue;
+ }
+
+show_less {
+  text-align: center;
+}
+
+/* top section */  
+/*
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#020031', endColorstr='#6d3353',GradientType=1 );
+    color: #fff; 
+    background: #020031;  
+*/
