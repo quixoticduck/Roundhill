@@ -52,14 +52,15 @@ p, ul, li, q, a {
   color:#242427;
 }
 
-  .col-xs {
-  font-size: 15px;
-  line-height: 20px;
-}
-
 q {
   font-style: italic;
   text-align: center;
+  color: #85b78c;
+}
+
+.col-xs {
+  font-size: 15px;
+  line-height: 20px;
 }
 
 .fa-ul {
@@ -85,6 +86,10 @@ a:active
 {
 text-decoration:none;
 color: #f8f8f8; 
+}
+
+.quote-text.q {
+  color:red;
 }
 
 /*
