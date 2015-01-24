@@ -34,7 +34,7 @@ h3 {
   font-family: 'Vollkorn', Georgia, Times, serif;
   font-size: 23px;
   line-height: 28px;
-  color:#EFEFEF;
+  color:#f8f8f8;
   text-align: center;
 }
 
@@ -55,7 +55,22 @@ p, ul, li, q, a {
 q {
   font-style: italic;
   text-align: center;
-  color: #85b78c; 
+  color: #f8f8f8; 
+}
+
+/*
+.quote-attribution h3 {
+  color:#242427;
+}
+*/
+
+/*.quote-text.q {
+  color:red;
+}
+*/
+.quote h3 {
+  color:#313131;
+  font-weight: bold;
 }
 
 .col-xs {
@@ -88,9 +103,7 @@ text-decoration:none;
 color: #f8f8f8; 
 }
 
-.quote-text.q {
-  color:red;
-}
+
 
 /*
 a[href^="mailto"]:hover:after {content: attr(title); }
@@ -225,8 +238,8 @@ padding-bottom: 80px;
     text-align: center;
 }
 
-.jumbo-footer p, .jumbo-footer h1, .jumbo-footer h2, .jumbo-footer h3, .jumbo-footer h4, .jumbo-footer a, .jumbo-footer ul, .jumbo-footer li, .jumbo-footer f {
-  color: /* #242427; */ #EFEFEF;
+.jumbo-footer p, .jumbo-footer h1, .jumbo-footer h2, .jumbo-footer h3, .jumbo-footer h4, .jumbo-footer a, .jumbo-footer ul, .jumbo-footer li {
+  color: #EFEFEF;
 }
 
 .ICB {
