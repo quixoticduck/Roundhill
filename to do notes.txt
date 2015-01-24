@@ -3,6 +3,7 @@ when page resizes from small to large the navbar disappears
 gap (two halves) in mobile nav
 mobile nav stays open and fixed when you click on a link
 on Chrome Android tablet the navbar or main page sometimes covers only half of width
+on first pixel of scroll down the top text is covered
 
 to change:
 switch logo to spinning one or make smaller logo a smaller file so it doesn’t need to refocus upon transform
