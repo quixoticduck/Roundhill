@@ -442,6 +442,11 @@ nav span {
     top: 40px;
   }
 
+  nav.fixed.shrink {
+    position: absolute;
+    display: none !important;
+  }
+
   a {
     color: #333;
   }
