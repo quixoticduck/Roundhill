@@ -83,7 +83,7 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="button"><span>*</span>MENU<span>*</span></div>
-						<nav>
+						<nav class="fixed ">
 							<ul class="nav_list_left">
 								<li><a href="#about" class="scroll-link" data-id="about">About</a>
 								<span>*</span>
@@ -92,7 +92,7 @@
 							<span>*</span>
 						</li>
 					</ul>
-					<a href="#home" class="logo"><img src="/assets/img/logo.png" ></a>
+					<a href="#home" class="logo_wrapper"><img src="/assets/img/logo.png" ></a>
 					<ul class="nav_list_right">
 						<li>
 							<span>*</span>
@@ -130,6 +130,7 @@
 MAIN HTML BEGINS
 ========================================================================== -->
 <!-- INTRODUCTION SECTION BEGINS-->
+<div id="buffer"></div>
 <div class="container-fluid jumbo bg_sky" id="home">
 <div class="container">
 	<div class="row">
@@ -366,16 +367,19 @@ s.parentNode.insertBefore(g,s)}(document,'script'));
 <!-- vendors -->
 <script>
 var $thisdiv = $('nav, body');
+var $buffer = $('#buffer');
 $(window).scroll(function (event) {
-// what the y position of the scroll is
-var y = $(window).scrollTop();
-// whether that's below the form
-if (y >= 01) {
-// if so, ad the fixed class
-$thisdiv.addClass('fixed');
-} else {
-			$thisdiv.removeClass('fixed');
-}
+	// what the y position of the scroll is
+	var y = $(window).scrollTop();
+	// whether that's below the form
+	if (y >= 01) {
+	// if so, add the fixed class
+		$thisdiv.addClass('shrink');
+		$buffer.addClass('shrink');
+	} else {
+		$thisdiv.removeClass('shrink');
+		$buffer.removeClass('shrink');
+	}
 });
 $('.button').on('click', function(){
 	$('nav').slideToggle();

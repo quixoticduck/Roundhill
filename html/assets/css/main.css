@@ -305,22 +305,37 @@ margin-bottom: 50px;
   color: #419EA7;
 }
 
-.logo {
-    width: 180px;
-    margin-top: 10px;
+.logo_wrapper {
+    width: 162px;
+    height: 162px;
+    margin-top: 13px;
+    margin-bottom: 13px;
     display: inline-block;
     transition: .6s;
     vertical-align: middle;
 }
 
-.fixed .logo {
+.shrink .logo_wrapper {
+  height: 75px;
   width: 75px;
-  margin-bottom: 0px;
-  margin-top: 5px;
+  margin-bottom: 6px;
+  margin-top: 6px;
+  transition: .6s;
 }
 
-.logo img {
-  width: 100%;
+#buffer{
+    height: 162px;
+    background-color: #266b7c;
+    transition: .6s;
+}
+
+#buffer.shrink {
+  height: 75px;
+  transition: .6s;
+}
+
+.logo_wrapper img {
+  height: 100%;
 }
 
 .nav_list_left {
@@ -411,7 +426,7 @@ nav span {
     display: none;
   }
 
-  .logo {
+  .logo_wrapper {
     display: none;
   }
 
@@ -423,21 +438,29 @@ nav span {
     display: none;
   }
 
-a {
-  color: #333;
-}
+  nav.fixed {
+    top: 40px;
+  }
 
-a:link {
-  color: #333;
-}
+  a {
+    color: #333;
+  }
 
-a:visited {
-  color:#419EA7;
-}
+  a:link {
+    color: #333;
+  }
 
-a:hover {
-  color: #419EA7;  
-}
+  a:visited {
+    color:#419EA7;
+  }
+
+  a:hover {
+    color: #419EA7;  
+  }
+
+  #buffer {
+    display: none;
+  }
 
 /* CODE BAR NAV END */
 
