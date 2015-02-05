@@ -219,6 +219,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f8f8', end
 }
 /* COLOR CSS ENDS */ 
 
+.bg_creamish {
+background-color: #e8e8e8;
+}
+
+.bg_ICB {
+  background-image:url("/assets/img/ICB_bg.png");
+  background-position: fixed;
+}
 
 .skyline_padding {
 padding-bottom: 80px;
@@ -481,6 +489,15 @@ a:focus {
 
 #testimonials .fa-quote-right {
   font-size: 21px;
+}
+
+.pg_divider {
+  height: 10px;
+  width: 100%;
+  display: block;
+  background-color: #419EA7;
+    background-color: red;
+    color:blue;
 }
 
 /* RESPONSIVE CSS */
