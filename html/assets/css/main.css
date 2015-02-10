@@ -224,12 +224,13 @@ background-color: #e8e8e8;
 }
 
 .bg_ICB {
-  background-color: #e8e8e8;
   background-image:url("/assets/img/ICB_tall3_tspb.png");
   background-repeat: no-repeat;
-  background-position: right 180px;
   background-size: 300px;
-  background-attachment: fixed;
+  position: fixed;
+  right:50px;
+  height: 500px;
+  width: 300px;
 }
 
 .skyline_padding {
