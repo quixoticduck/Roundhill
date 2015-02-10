@@ -3,3 +3,35 @@ make central
 make background same colour as ICB logo (or a gradient) so the logo is part of the background (like in Aloha.com) as a fixed background or position
 
 might have to add a blue bar or a fade to make middle section not look weird
+
+
+
+selector {
+	property: value;
+}
+
+if you have a selector and a space and then another selector you are targetting the child of the first selector
+
+selector child {
+	property: value;
+}
+
+e.g.
+
+nav a {
+	property: value;
+}
+
+is only targetting links inside of navs
+
+whereas
+
+nav.menu {
+	property: value;
+}
+
+is only targetting a nav which also has a class of menu
+
+---
+
+a nav is an element that is inbuilt, not a class or an id
