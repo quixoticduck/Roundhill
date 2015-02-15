@@ -84,10 +84,28 @@ q {
     text-align:left;
 }
 
+/* transition css example */
+.pencils {
+  width: 700px;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  transition: 0.4s; }
+  .pencils:hover {
+    width: 500px; }
+/* /transition css example */
+
+
+
 a:link
 {
 text-decoration:none;
-color: #f8f8f8 
+-webkit-transition: 0.6s;
+-moz-transition: 0.6s;
+-ms-transition: 0.6s;
+transition: 0.6s;
+color: #f8f8f8
+
 }
 a:visited
 {
@@ -97,6 +115,10 @@ color: #f8f8f8;
 a:hover
 {
 text-decoration:none;
+-webkit-transition: 0.6s;
+-moz-transition: 0.6s;
+-ms-transition: 0.6s;
+transition: 0.6s;
 color: #3A959C; 
 }
 a:active
