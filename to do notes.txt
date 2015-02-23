@@ -9,7 +9,9 @@ to change:
 switch logo to spinning one or make smaller logo a smaller file so it doesn’t need to refocus upon transform
 add in Pagelime
 make navbar links middle-clickable
+make visited links a better color (check on my mobile)
 add contact form
+change address
+restyle mobile nav
 
-
-fix footer - ICB logo shows through
+fix footer - ICB logo shows through (possibly change the way lower footer works)
