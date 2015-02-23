@@ -42,6 +42,8 @@ h4 {
 font-family: 'Open Sans', Georgia, Helvetica, Arial, sans-serif;
 font-size: 20px;
 line-height: 25px;
+text-align: center;
+color:#f8f8f8;
 /* font-weight: bold; */
 }
 
@@ -140,6 +142,7 @@ a[href^="mailto"]:hover:after {content: attr(title); }
 
 body {
     background-image:url("/assets/img/pixel_weave_slate2.png");
+    z-index: 10;
     overflow-x:hidden; 
    /* background-color:#EFEFEF; */
 }
@@ -250,9 +253,23 @@ background-color: #e8e8e8;
   background-repeat: no-repeat;
   background-size: 300px;
   position: fixed;
-  right:50px;
+  right:300px;
   height: 500px;
   width: 300px;
+  z-index: -100;
+}
+
+.ICB {
+    width: 50%;
+    padding: 15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.low_z {
+  position: relative;
+  z-index: -200;
 }
 
 .skyline_padding {
@@ -279,12 +296,14 @@ padding-bottom: 80px;
   color: #EFEFEF;
 }
 
-.ICB {
-    width: 50%;
-    padding: 15px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
+.pg_divider {
+  height: 15px;
+  width: 100%;
+/*  padding-top: 10px;*/
+/*  display: block;*/
+/*  background-color: #419EA7;*/
+  background-color: #266B7C;
+/*  background-color: red;*/
 }
 
 .no_margin {
@@ -518,14 +537,6 @@ a:focus {
   font-size: 21px;
 }
 
-.pg_divider {
-  height: 10px;
-  width: 100%;
-  display: block;
-  background-color: #419EA7;
-    background-color: red;
-    color:blue;
-}
 
 /* RESPONSIVE CSS */
 
