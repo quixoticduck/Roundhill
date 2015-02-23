@@ -15,3 +15,5 @@ change address
 restyle mobile nav
 
 fix footer - ICB logo shows through (possibly change the way lower footer works)
+
+IMPORTANT: menu disappears when going from mobile to landscape again
