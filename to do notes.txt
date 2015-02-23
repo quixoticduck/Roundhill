@@ -10,3 +10,6 @@ switch logo to spinning one or make smaller logo a smaller file so it doesn’t 
 add in Pagelime
 make navbar links middle-clickable
 add contact form
+
+
+fix footer - ICB logo shows through
