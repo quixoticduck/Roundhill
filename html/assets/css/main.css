@@ -248,29 +248,31 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f8f8', end
 background-color: #e8e8e8;
 }
 
-.bg_ICB {
+/*.bg_ICB {
   background-image:url("/assets/img/ICB_tall3_tspb.png");
   background-repeat: no-repeat;
   background-size: 300px;
   position: fixed;
   right:300px;
   height: 500px;
-  width: 300px;
-  z-index: -100;
+  width: 300px;*/
+/*  z-index: -100;*/
 }
 
-.ICB {
+/*.ICB {
     width: 50%;
     padding: 15px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
-}
+}*/
 
-.low_z {
+/*.low_z {
   position: relative;
   z-index: -200;
-}
+}*/
+
+
 
 .skyline_padding {
 padding-bottom: 80px;
@@ -390,6 +392,7 @@ margin-bottom: 50px;
 
 .logo_wrapper img {
   height: 100%;
+  overflow: none !important;
 }
 
 .nav_list_left {
@@ -756,4 +759,13 @@ only screen and (min-device-pixel-ratio: 1.5) {
 
 /**/
 /* SPINNING WINDMILL ICON ENDS*/
+
+.icb_logo {
+  width: 40%;
+  border-radius: 5px;
+  border-color: red;
+  display: none;
+  background-color: red;
+  color: blue;
+}
 
