@@ -296,10 +296,23 @@ margin-bottom: 50px;
 }
 
 .icb_logo img {
-  width: 70%;
-  padding-top: 27px;
-  margin-left: 30px;
+  width: 230px  ;
+  padding-top: 4%;
+  margin: auto; 
+  display: block;   
 }
+
+@media (max-width: 992px) {
+  .icb_logo img {
+    padding-top: 10%;
+  }
+} 
+
+@media (max-width: 768px) {
+  .icb_logo img {
+    padding-top: 2%;
+  }
+} 
 
 .quote_attribution {
   font-size: 18px;

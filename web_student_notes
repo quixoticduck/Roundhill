@@ -22,7 +22,7 @@ nav a {
 	property: value;
 }
 
-is only targetting links inside of navs
+is only targetting links inside of navs 
 
 whereas
 
