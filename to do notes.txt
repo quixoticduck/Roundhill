@@ -15,9 +15,10 @@ add in Pagelime
 make navbar links middle-clickable
 make visited links a better color (check on my mobile)
 add contact form
-change address
 restyle mobile nav
 change divider asterisk
+jquery undefined
+learn 
 
 
 IMPORTANT: menu disappears when going from mobile to landscape again

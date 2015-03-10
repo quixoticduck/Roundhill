@@ -501,7 +501,7 @@ nav span {
 
   nav.fixed.shrink {
     position: absolute;
-    display: none !important;
+    display: none;
   }
 
   a {

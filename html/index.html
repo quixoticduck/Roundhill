@@ -82,7 +82,8 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<div class="button"><span>*</span>MENU<span>*</span></div>
+						<div class="button"><span>*</span>MENU<span>*</span>
+						</div>
 						<nav class="fixed ">
 							<ul class="nav_list_left">
 								<li><a href="#about" class="scroll-link" data-id="about">About</a>
@@ -140,7 +141,6 @@ MAIN HTML BEGINS
 	<div class="row">
 		<div class="col-xs-12">
 			<div class="pg_divider">
-
 			</div>
 		</div>
 	</div>
@@ -366,7 +366,7 @@ $(window).scroll(function (event) {
 	var y = $(window).scrollTop();
 	// whether that's below the form
 	if (y >= 01) {
-	// if so, add the fixed class
+	// if so, add the shrink class
 		$thisdiv.addClass('shrink');
 		$buffer.addClass('shrink');
 	} else {
@@ -374,8 +374,20 @@ $(window).scroll(function (event) {
 		$buffer.removeClass('shrink');
 	}
 });
+var isMenuDown = false;
 $('.button').on('click', function(){
-	$('nav').slideToggle();
+	if (isMenuDown) {
+		$('nav').slideUp(function () {
+			$('nav').removeAttr("style");
+			isMenuDown = false;
+		});
+	} else {
+		$('nav').slideDown(function () {
+			isMenuDown = true;
+		});
+	}
+	//$('nav').removeAttr("style");
+	//console.log("slideToggle")
 });
 </script>
 <!-- Smooth scroll -->
