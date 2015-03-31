@@ -269,7 +269,7 @@ padding-bottom: 80px;
     text-align: center;
 }
 
-.jumbo-footer p, .jumbo-footer h1, .jumbo-footer h2, .jumbo-footer h3, .jumbo-footer h4, .jumbo-footer a, .jumbo-footer ul, .jumbo-footer li {
+.jumbo-footer p, .jumbo-footer h1, .jumbo-footer h2, .jumbo-footer h3, .jumbo-footer h4, .jumbo-footer ul, .jumbo-footer li {
   color: #EFEFEF;
 }
 
@@ -411,6 +411,11 @@ margin-bottom: 50px;
   margin: 0px;
 }
 
+ .header .fa {
+    -webkit-text-stroke: 1px #ffffff;
+    font-size: .95em;
+  }
+
 nav {
   text-align: center;
   text-transform: uppercase;
@@ -440,6 +445,7 @@ nav span {
   margin: 0 30px;
   display: inline-block;
   color: #419EA7;
+  vertical-align: top;
 }
 
 @media (max-width: 1200px) {
@@ -504,25 +510,27 @@ nav span {
     display: none;
   }
 
-  a {
+  .header a {
     color: #333;
   }
 
-  a:link {
+  .header a:link {
     color: #333;
   }
 
-  a:visited {
+  .header a:visited {
     color:#419EA7;
   }
 
-  a:hover {
+  .header a:hover {
     color: #419EA7;  
   }
 
   #buffer {
     display: none;
   }
+
+
 
 /* CODE BAR NAV END */
 
@@ -539,6 +547,7 @@ a:focus {
 #testimonials .fa-quote-right {
   font-size: 21px;
 }
+
 
 
 /* RESPONSIVE CSS */
