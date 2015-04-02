@@ -1,19 +1,16 @@
 errors:
--when mobile nav menu button has been clicked, if the page resizes from small to large the navbar disappears
-
-gap (two halves) in mobile nav
-
 mobile nav stays open and fixed when you click on a link
-
+gap (two halves) in mobile nav
 on Chrome Android tablet the navbar or main page sometimes covers only half of width
-
 on first pixel of scroll down the top text is covered
 
 to change:
+linkedin and facebook logos not working on Chrome 11/03/15
+make website look good on mobiles
+restyle mobile nav
 switch logo to spinning one or make smaller logo a smaller file so it doesn’t need to refocus upon transform
 add in Pagelime
 make navbar links middle-clickable
-make visited links a better color (check on my mobile)
 add contact form
 restyle mobile nav
 change divider asterisk
@@ -23,7 +20,7 @@ learn
 change icons to calculator/credit card
 switch out map pin to HQ on retina displays only
 change vertical alignment of last two cog/nav divider things
-sprt spacing of nav divider cogs and menu options so not squished
+sort spacing of nav divider cogs and menu options so not squished
 
-
-IMPORTANT: menu disappears when going from mobile to landscape again
+fixed:
+-when mobile nav menu button has been clicked, if the page resizes from small to large the navbar disappears
