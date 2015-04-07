@@ -413,8 +413,21 @@ margin-bottom: 50px;
 
  .header .fa {
     -webkit-text-stroke: 1px #ffffff;
-    font-size: .95em;
   }
+
+ .header .fa-cog {
+    font-size: .8em;
+  }
+
+ .header .fa-linkedin, .fa-facebook {
+    vertical-align: 0px;
+  }
+
+
+.break {
+  border-bottom: solid 10px #266b7c;
+}
+
 
 nav {
   text-align: center;

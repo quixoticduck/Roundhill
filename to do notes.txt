@@ -19,8 +19,10 @@ jquery undefined
 learn 
 change icons to calculator/credit card
 switch out map pin to HQ on retina displays only
-change vertical alignment of last two cog/nav divider things
+
 sort spacing of nav divider cogs and menu options so not squished
 
 fixed:
 -when mobile nav menu button has been clicked, if the page resizes from small to large the navbar disappears
+change vertical alignment of last two cog/nav divider things
+fixed right overflow
