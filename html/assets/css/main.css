@@ -417,6 +417,7 @@ margin-bottom: 50px;
 
  .header .fa-cog {
     font-size: .8em;
+    display: none;
   }
 
  .header .fa-linkedin, .fa-facebook {
@@ -471,11 +472,17 @@ nav span {
   nav span {
     margin: 0 15px;
   }
+  nav li {
+    padding: 5px 6px;
+  }
 }
 
 @media (max-width: 995px) {
   nav span {
-    margin: 0 6px;
+    margin: 0 5px;
+  }
+  nav li {
+    padding: 5px 10px;
   }
 }
 
