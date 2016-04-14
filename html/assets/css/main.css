@@ -348,8 +348,8 @@ margin-bottom: 50px;
   color: #f8f8f8;
   padding: 5px 0px;
   vertical-align: top;
-  font-size: 23px;
-  font-family: 'Open Sans', Georgia, Helvetica, Arial, sans-serif;
+  font-size: 27px;
+  font-family: 'Vollkorn', Georgia, Times, serif;
   font-weight: 300;
   text-align: center;
 }
@@ -451,8 +451,9 @@ nav li {
   font-weight: 300;
 }
 
-nav a {
-  font-size: 23px;  
+nav a { 
+  font-family: 'Vollkorn', Georgia, Times, serif;
+  font-size: 27px;
 }
 
 nav span {
@@ -639,6 +640,10 @@ a:focus {
         font-size: 19px;
         line-height: 22px;
     }
+
+    nav a {
+    font-size: 24px;
+    }
 }
 
 
@@ -671,29 +676,33 @@ only screen and (min-device-pixel-ratio: 1.5) {
 
 /* iPad Portrait (and Hudl 2 portrait) */
 @media screen and (min-device-width: 481px) and (orientation:portrait) {
-        p, ul, li, q, a {
-        font-size: 18px;
-        line-height: 31px;
-    }
-    h1 {
-        font-size: 40px;
-        line-height: 45px;
-    }
-    
-    h2  {
-        font-size: 28px;
-        line-height: 33px;
-    }
-    
-    h3 {
-        font-size: 19px;
-        line-height: 24px;
-    }
-    
-    h4  {
-        font-size: 17px;
-        line-height: 22px;
-    }    
+  p, ul, li, q, a {
+      font-size: 18px;
+      line-height: 31px;
+  }
+  h1 {
+      font-size: 40px;
+      line-height: 45px;
+  }
+  
+  h2  {
+      font-size: 28px;
+      line-height: 33px;
+  }
+  
+  h3 {
+      font-size: 19px;
+      line-height: 24px;
+  }
+  
+  h4  {
+      font-size: 17px;
+      line-height: 22px;
+  }    
+
+  nav a {
+  font-size: 24px;
+  }
 }
 
 /* iPad Landscape */
